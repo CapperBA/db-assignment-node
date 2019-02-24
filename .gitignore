@@ -1,0 +1,8 @@
+# Folders
+###################
+node_modules/
+credentials/
+
+# Packages #
+############
+package-lock.json
