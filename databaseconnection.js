@@ -6,7 +6,7 @@ Connect to mysql database with sequelize
 const Sequelize = require('sequelize');
 
 // Credentials
-const credentials = require('../SecondAssignment/credentials/databaseCredentials');
+const credentials = require('./credentials/databaseCredentials');
 
 module.exports.connect = function() {
   return new Sequelize(credentials.dbname, credentials.username, credentials.pw, {
